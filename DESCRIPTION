@@ -1,0 +1,18 @@
+Package: montyhall
+Title: Simulate the Monty Hall Problem!
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Khaled",
+           family = "Hussain",
+           role = c("aut", "cre"),
+           email = "kahussai@asu.edu",
+           comment = c(ORCID = "0000-0003-1065-6698"))
+Description: Simulates the Monty Hall Problem thorough a series of functions. Can do this n number of times to find an approximate estimate of the probabilities associated with the problem.
+Depends:
+	dplyr
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
